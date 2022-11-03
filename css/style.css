@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+section{
+padding: 100px 0px;
+text-align: center;
+}
+p{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.heding{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.sub-heading{
+font-size: 25px;
+line-height: 25px;
+text-transform: uppercase;
+margin: 10px 0px;
+}
+.underline{
+border-bottom: 3px solid  #00000045 ;
+width: 3%;
+margin: 7px  auto;
+}
+.writing-part {
+    margin: bottom 50px; ;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+   float: left;
+}
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{
+    width: 83.33%;
+    float: left;
+}
+.col-11{
+    width: 91.66%;
+    float: left;  
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+header{
+    background-color: #87509c;
+}
+nav{
+padding: 10px 0px;
+}
+.logo-part{
+padding: 10px 0px;
+}
+.menu-part{
+
+}
+.menu-part ul{
+    text-align: right;
+    padding: 1px 0px;
+}
+.menu-part li{
+    list-style: none;
+    display:inline-block;
+    margin: 0px 10px;
+    padding: 7px;
+    transition: ease-in-out 0.5s;
+}
+.menu-part li :hover{
+    background-color: #00000042;
+    border-radius: 5px;
+}
+.menu-part li a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.hero-part{
+text-align: center;
+padding: 150px 100px;
+}
+.hero-part h1{
+    font-size: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+.hero-part button{
+    background-color: #eb7d4b;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 200px;
+    margin-top: 40px;
+}
+#service{
+background-color: #17c2a4;
+color: white;
+}
+.servic-box p{
+padding: 0px 2px;
+}
+.service-box img{
+    height: 150px;
+}
+#team{
+background-color: #fff;
+}
+.des{
+  color: #30bae7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.team-icon{
+margin-top: 14px;
+color: #3c4761;
+}
+.team-icon i{
+color: #fff;
+background-color: #94bcc2;
+padding: 10px;
+margin: 0px 5px;
+border-radius: 50%;
+width: 40px;
+}
+#portfolio{
+background-color:#ffdd99;
+}
+.portfolio-btn-part{
+margin-top: 20px;
+}
+.portfolio-btn-part button{
+    padding: 5px 20px;
+    margin: 0px 5px;
+    text-transform: uppercase;
+    background-color: #00000030;
+    transition:ease-in 0.5s;
+}
+.portfolio-btn-part button:hover{
+    background-color: #fff;
+}
+.portfolio-box-part{
+
+}
+.portfolio-box {
+    margin-top: 20px;
+}
+.load-btn{ background-color: #17c2a4;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 200px;
+    margin-top: 40px;
+}
+#abut{
+        background-color: #d74780;
+        color: #fff;
+        } 
+#contact{
+background-color: #3c5499;
+color: #fff;
+}
+input{
+   color: #fff;
+}
+.form-part-one{
+
+}
+.form-name{
+    text-align: end;
+}
+input[type="text"]{
+    width: 50%;
+   background-color: #273a71;
+   padding: 10px;
+   margin-right: 10px;
+   margin-left: 1%;
+}
+.form-email{
+text-align: start;
+}
+input[type="email"]{
+   width: 50%;
+   background-color: #273a71;
+   padding: 10px;
+}
+.form-part-tow{
+
+}
+textarea{
+width: 51%;
+background-color: #273a71;
+margin-top: 10px;
+padding: 10px;
+color: #fff;
+}
+input[type="submit"]{
+display: block;
+margin:10px auto 0px;
+background-color: #30bae7;
+color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 200px;
+}
+input::placeholder,textarea::placeholder{
+    color: #fff;
+}
+footer{
+background: #344b8e;
+
+}
+footer ul{
+
+}
+footer li{
+
+}
+footer a{
+
+}
